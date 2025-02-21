@@ -1,0 +1,19 @@
+if [ -n "$DESKTOP_SESSION" ]; then
+  eval $(gnome-keyring-daemon --start --components=pkcs11,secrets,ssh)
+  export $(gnome-keyring-daemon --start --components=gpg,pkcs11,secrets,ssh)
+  export SSH_AUTH_SOCK
+fi
+
+# Env vars
+export PAGER='nvim +Man!'
+export MANPAGER='nvim +Man!'
+export MANWIDTH=999
+export COLORTERM=truecolor
+export CLICOLOR=1
+export VISUAL=nvim
+export EDITOR=nvim
+export SUDO_EDITOR=nvim
+export SYSTEMD_EDITOR=nvim
+
+# Path
+export PATH="$PATH":"$HOME/.pub-cache/bin"
