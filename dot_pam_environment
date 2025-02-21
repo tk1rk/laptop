@@ -1,0 +1,4 @@
+INPUT_METHOD DEFAULT=fcitx5
+GTK_IM_MODULE DEFAULT=wayland;fcitx5
+QT_IM_MODULE DEFAULT=wayland;fcitx5;ibus
+XMODIFIERS DEFAULT=\@im=fcitx5
