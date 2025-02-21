@@ -1,0 +1,45 @@
+yay -S geoclue gst-libav gst-plugins-bad gst-plugins-good file-foller
+exit
+yay -S mkinitpcio-firmware bluetooth-firmware bluez bluez-utils harfbuzz-utils
+yay -S mkinitcpio-firmware bluez bluez-utils harfbuzz-utils
+rustup default nightly
+yay -S gtk-layer-shell gtk4-layer-shell layer-shell-qt
+yay dracula
+yay dracula
+zsh
+sudo systemctl enable systemd-networkd
+sudo systemctl enable wpa_supplicant
+sudo systemctl enable dhcpcd
+sudo systemctl enable NetworkManager
+ip link
+iwctl
+systemctl start iwd
+ iwctl
+cd ~
+mkdir -p .local/share
+cd .local/share
+git clone https://aur.archlinux.org/yay
+sudo pacman -S git
+sudo pacman -S tk perl-libwww perl-cgi
+sudo pacman -S perl-lwp-protocol-https
+git clone https://aur.archlinux.org/yay
+sudo pacman -S neovim
+sudo pacman -S python-pynvim python-neovim xclip xsel wl-clipboard
+sudo pacman -S mailcap
+sudo nvim /etc/pacman.conffd
+sudo pacman-key --init
+sudo pacman-key --populate archlinux
+yay -S zsh
+cd yay
+makepkg -si
+
+cd yay
+yay hypr
+yay -S feh zsh wallutils swww
+yay -S sdl imagemagick jpegexiforient libid3tag
+yay hyprland
+yay hyprpanel
+iwctl
+ping google.com
+sudo nvim /etc/hosts
+hyprctl dispatch exit
