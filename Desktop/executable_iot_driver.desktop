@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=iot_driver
+Exec=env WINEPREFIX="/home/tk/.local/share/winegui/prefixes/tk" wine C:\\\\users\\\\Public\\\\Desktop\\\\iot_driver.lnk
+Type=Application
+StartupNotify=true
+Path=/home/tk/.local/share/winegui/prefixes/tk/dosdevices/c:/Program Files (x86)/iot_driver
+Icon=0CE7_iot_driver.0
+StartupWMClass=iot_driver.exe

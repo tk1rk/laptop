@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=MonsGeek Driver
+Exec=env WINEPREFIX="/home/tk/.local/share/winegui/prefixes/tk" wine C:\\\\users\\\\tk\\\\AppData\\\\Local\\\\Programs\\\\MonsGeek\\ Driver\\\\MonsGeek\\ Driver.exe 
+Type=Application
+StartupNotify=true
+Path=/home/tk/.local/share/winegui/prefixes/tk/dosdevices/c:/users/tk/AppData/Local/Programs/MonsGeek Driver
+Icon=2E0E_MonsGeek Driver.0
+StartupWMClass=monsgeek driver.exe
